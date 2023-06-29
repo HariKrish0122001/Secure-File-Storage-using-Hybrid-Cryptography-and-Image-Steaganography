@@ -11,8 +11,8 @@ import requests
 
 os.environ['CATALYST_AUTH'] = json.dumps(
     {'refresh_token': '1000.0e2f9bdcf8f047882cad13bdb99f4a49.c70f107fc82f39ec6dcbda5a65fca219',
-     'client_id': '1000.HN38DZYCSYQ8TU588BQ97RW44GSAMK',
-     'client_secret': '4740ebde1bdcb3d7c3d14193fcdffe8a9f7864196c'})
+     'client_id': 'clientid',
+     'client_secret': 'clientkey'})
 os.environ['CATALYST_OPTIONS'] = json.dumps({'project_id': '5249000000687067', 'project_key': 'projectkey',
                                              'project_domain': 'https://hybridcloud-71779596.development.localcatalystserverless.com'})
 
