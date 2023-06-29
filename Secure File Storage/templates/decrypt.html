@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decryption</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css"  href="/static/decrypt.css"/>
+    <script type="text/javascript" src="/static/decrypt.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> File </h1>
+            <h1 id="safe">Download</h1><br>
+        </div>
+        <div class="file-download">
+            <form class="file-download" action="\decrypt_json" method='POST' enctype="multipart/form-data">
+            <!--<form class="file-download" action="{{url_for('receiverroute') }}" method='POST' enctype="multipart/form-data">-->
+
+                <label> Select the file</label>
+                <select id="dropdown" name="dropdown_receiver" required>
+                    <option value="">select an option</option>
+                </select><br><br>
+                <label >Select a steganographed image  </label>
+                <input type="file" id="img-upload" name="image-upload" accept="image/*"><br><br>
+                <button type="submit" class="download">Download</button>
+            </form>
+             <form class="file-download" action="/back2choice" method="POST">
+                <button type="submit" class="download1" id="main">Back to Choice</button>
+             </form>
+        </div>
+    </div>
+
+    <!--var dropdown=document.getElementById("dropdown");
+    dropdown.addEventListener('change',function() {
+    var selected=dropdown.options[dropdown.selectedIndex].text;
+    console.log(selected);
+    });-->
+
+
+</body>
+
+</html>

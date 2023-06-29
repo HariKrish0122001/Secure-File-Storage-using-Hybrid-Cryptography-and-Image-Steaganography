@@ -1,0 +1,7 @@
+{
+	"command": "python3 -u main.py",
+	"buildPath": "/Users/hari-pt6161/Downloads/appengine",
+	"stack": "python_3_9",
+	"env_variables": {},
+	"memory": 256
+}

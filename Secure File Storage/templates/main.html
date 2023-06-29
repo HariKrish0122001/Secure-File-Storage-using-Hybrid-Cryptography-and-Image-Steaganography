@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" type="text/css"  href="/static/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body  onload="flashMessage()">
+
+    <div class="hero">
+        <div class="header">
+            <h1> Secure File</h1>
+            <h1 id="safe">Storage</h1><br>
+        </div>
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="signin()">Signin</button>
+            </div> 
+            <form  id='login' class="input-group" action="/login_form" method="post">
+                <pre> Login </pre>
+                <input type="email" class="input-field" placeholder="Mail Id " name="mailid" required>
+                <input type="password" class="input-field" placeholder="Password" name="password" required><br><br><br>
+                <button type="submit" class="submit-btn" id="login-btn">Login</button>
+                <form  id="login1" class="newuser1">
+                    <button type="submit" class="newuser" onclick="signin()" > New User</button>
+                </form>
+            </form>
+            <form id="signin" class="input-group">
+                <pre> Create New Account</pre>
+                <input type="text" class="input-field" placeholder="UserName"  id="username" name="username" required>
+                <input type="text" class="input-field" placeholder="Name" id="name" name="name" required>
+                <input type="email" class="input-field" placeholder="Email ID" id="mail" name="mailid" required>
+                <input type="password" class="input-field" placeholder=" New Password" id="newpass" name="newpass" required>
+                <input type="password" class="input-field" placeholder=" Re Enter Password"  id="repass" name="repass" required>
+                <button type="button" class="submit-btn" onclick="form_()">Create Account</button>
+                <!---<button type="submit" class="submit-btn" Onclick="login()">Create Account</button> -->
+            </form>
+        </div>
+    </div>
+<script>
+
+      function flashMessage() {
+      debugger
+      if ("{{ flash_message }}" == "True") {
+        alert("Invalid user details");
+      }
+    }
+
+
+
+    var x=document.getElementById("login");
+    var y=document.getElementById("signin");
+    var z=document.getElementById("btn");
+
+        function signin(){
+            x.style.left='-400px';
+            y.style.left='50px';
+            z.style.left='110px';
+        }
+        function login(){
+            x.style.left='50px';
+            y.style.left='450px';
+            z.style.left='0px';
+
+        }
+        function CheckPassword(password)
+        {
+            debugger;
+            var decimal=  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,}$/;
+            console.log(password);
+            if(password.match(decimal))
+            {
+            return true;
+            }
+            else
+            {
+            return false;
+            }
+        }
+   function form_()
+   {
+    debugger;
+    var username=document.getElementById('username').value;
+    var name=document.getElementById('name').value;
+    var mail=document.getElementById('mail').value;
+    var newpass=document.getElementById('newpass').value;
+    var repass=document.getElementById('repass').value;
+    if (CheckPassword(newpass)==false && CheckPassword(repass)==false)
+    {
+    alert('Password must be of 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character');
+    }
+    else if (newpass!=repass)
+    {
+       alert("Password Doesn't match")
+    }
+
+   else{
+       var info={'Mail_id':mail,'Name':name,'Password':newpass}
+       
+       $.ajax(
+       {
+       type: "POST",
+       url: "/sign_form",
+       data:JSON.stringify(info),
+       dataType:'json',
+       contentType:'application/json; charset=utf-8',
+
+       success: function(){
+                      debugger;
+                     login();
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                debugger;
+                    alert("Error: " + "User already existing");
+                }
+       })
+       var fm=document.getElementById('signin');
+       fm.reset();
+       
+    }
+
+    
+}
+</script>
+</body>
+</html>

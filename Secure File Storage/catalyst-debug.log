@@ -1,0 +1,248 @@
+[debug] [2023-05-09T07:28:58.139Z] : 
+[debug] [2023-05-09T07:28:58.140Z] : ----------------------------------------------------------------------
+[debug] [2023-05-09T07:28:58.140Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-09T07:28:58.140Z] : CLI Version:  1.14.1
+[debug] [2023-05-09T07:28:58.141Z] : Platform:     darwin
+[debug] [2023-05-09T07:28:58.141Z] : Node Version: v16.17.0
+[debug] [2023-05-09T07:28:58.142Z] : Time:         Tue May 09 2023 12:58:58 GMT+0530 (India Standard Time)
+[debug] [2023-05-09T07:28:58.142Z] : ----------------------------------------------------------------------
+[debug] [2023-05-09T07:28:58.143Z] : 
+[debug] [2023-05-09T07:28:58.969Z] : > authorizing via signed-in user option
+[debug] [2023-05-09T07:28:58.970Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-09T07:28:58.982Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-09T07:28:59.242Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 May 2023 07:28:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=d581ade0-6679-4992-8334-6af4e0737c31;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d581ade0-6679-4992-8334-6af4e0737c31;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-09T07:28:59.246Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-09T07:28:59.396Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 May 2023 07:28:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=62d0d807-2bd8-427a-95ac-6828fb31dbef;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=62d0d807-2bd8-427a-95ac-6828fb31dbef;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-05-09T07:28:59.598Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3000/appsail/secureFileStorage/
+[info] [2023-05-09T07:28:59.599Z] : 
+[debug] [2023-05-09T07:28:59.699Z] : No basic functions to add
+[info] [2023-05-09T07:28:59.703Z] : 
+[debug] [2023-05-10T14:33:27.007Z] : 
+[debug] [2023-05-10T14:33:27.009Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T14:33:27.009Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-10T14:33:27.009Z] : CLI Version:  1.14.1
+[debug] [2023-05-10T14:33:27.010Z] : Platform:     darwin
+[debug] [2023-05-10T14:33:27.010Z] : Node Version: v16.17.0
+[debug] [2023-05-10T14:33:27.017Z] : Time:         Wed May 10 2023 20:03:27 GMT+0530 (India Standard Time)
+[debug] [2023-05-10T14:33:27.017Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T14:33:27.017Z] : 
+[debug] [2023-05-10T14:33:28.004Z] : > authorizing via signed-in user option
+[debug] [2023-05-10T14:33:28.004Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-10T14:33:28.016Z] : > refreshing access token <
+[debug] [2023-05-10T14:33:28.017Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-05-10T14:33:28.314Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:33:28 GMT","content-type":"application/json;charset=UTF-8","content-length":"2872","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=9ebfcbb4-9b75-4768-97ee-b8ec815b5e0f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9ebfcbb4-9b75-4768-97ee-b8ec815b5e0f;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:33:28.336Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-10T14:33:28.772Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:33:28 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=aa3abbf0-cafa-4511-91d4-3872f3f87fe5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=aa3abbf0-cafa-4511-91d4-3872f3f87fe5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:33:28.775Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-10T14:33:28.947Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:33:28 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=f9e91d2e-8477-471c-b419-2cd6cc4858e0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f9e91d2e-8477-471c-b419-2cd6cc4858e0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:33:29.152Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-05-10T14:33:29.161Z] : http port : '3060' is not available. Hence port '3061' will be used instead.
+[info] [2023-05-10T14:33:29.168Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3001/appsail/secureFileStorage/
+[info] [2023-05-10T14:33:29.169Z] : 
+[debug] [2023-05-10T14:33:29.270Z] : No basic functions to add
+[info] [2023-05-10T14:33:29.274Z] : 
+[debug] [2023-05-10T14:46:00.322Z] : 
+[debug] [2023-05-10T14:46:00.323Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T14:46:00.323Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-10T14:46:00.324Z] : CLI Version:  1.14.1
+[debug] [2023-05-10T14:46:00.324Z] : Platform:     darwin
+[debug] [2023-05-10T14:46:00.324Z] : Node Version: v16.17.0
+[debug] [2023-05-10T14:46:00.325Z] : Time:         Wed May 10 2023 20:16:00 GMT+0530 (India Standard Time)
+[debug] [2023-05-10T14:46:00.325Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T14:46:00.325Z] : 
+[debug] [2023-05-10T14:46:00.764Z] : > authorizing via signed-in user option
+[debug] [2023-05-10T14:46:00.764Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-10T14:46:00.774Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-10T14:46:01.042Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:46:01 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=a6bd2c30-adea-4997-a12e-9cb773a502c4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a6bd2c30-adea-4997-a12e-9cb773a502c4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:46:01.046Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-10T14:46:01.297Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:46:01 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=ac680fea-f411-41e5-b87d-f540ed74480d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ac680fea-f411-41e5-b87d-f540ed74480d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:46:01.408Z] : http port : '3000' is not available. Hence port '3002' will be used instead.
+[debug] [2023-05-10T14:46:01.414Z] : http port : '3060' is not available. Hence port '3062' will be used instead.
+[info] [2023-05-10T14:46:01.422Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3002/appsail/secureFileStorage/
+[info] [2023-05-10T14:46:01.422Z] : 
+[debug] [2023-05-10T14:46:01.523Z] : No basic functions to add
+[info] [2023-05-10T14:46:01.526Z] : 
+[debug] [2023-05-10T14:50:17.900Z] : 
+[debug] [2023-05-10T14:50:17.901Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T14:50:17.902Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-10T14:50:17.902Z] : CLI Version:  1.14.1
+[debug] [2023-05-10T14:50:17.902Z] : Platform:     darwin
+[debug] [2023-05-10T14:50:17.903Z] : Node Version: v16.17.0
+[debug] [2023-05-10T14:50:17.903Z] : Time:         Wed May 10 2023 20:20:17 GMT+0530 (India Standard Time)
+[debug] [2023-05-10T14:50:17.904Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T14:50:17.904Z] : 
+[debug] [2023-05-10T14:50:18.370Z] : > authorizing via signed-in user option
+[debug] [2023-05-10T14:50:18.370Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-10T14:50:18.381Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-10T14:50:18.513Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:50:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=4b3cd962-2f8d-4b04-8687-d5e3f1d402bc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4b3cd962-2f8d-4b04-8687-d5e3f1d402bc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:50:18.516Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-10T14:50:18.661Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:50:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=6f6dd0d2-793e-4746-b9cf-cec43e46c9ab;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6f6dd0d2-793e-4746-b9cf-cec43e46c9ab;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:50:18.789Z] : http port : '3000' is not available. Hence port '3003' will be used instead.
+[debug] [2023-05-10T14:50:18.794Z] : http port : '3060' is not available. Hence port '3063' will be used instead.
+[info] [2023-05-10T14:50:18.802Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3003/appsail/secureFileStorage/
+[info] [2023-05-10T14:50:18.802Z] : 
+[debug] [2023-05-10T14:50:18.905Z] : No basic functions to add
+[info] [2023-05-10T14:50:18.909Z] : 
+[debug] [2023-05-10T14:57:25.684Z] : 
+[debug] [2023-05-10T14:57:25.685Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T14:57:25.685Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-10T14:57:25.685Z] : CLI Version:  1.14.1
+[debug] [2023-05-10T14:57:25.686Z] : Platform:     darwin
+[debug] [2023-05-10T14:57:25.686Z] : Node Version: v16.17.0
+[debug] [2023-05-10T14:57:25.687Z] : Time:         Wed May 10 2023 20:27:25 GMT+0530 (India Standard Time)
+[debug] [2023-05-10T14:57:25.687Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T14:57:25.688Z] : 
+[debug] [2023-05-10T14:57:26.263Z] : > authorizing via signed-in user option
+[debug] [2023-05-10T14:57:26.264Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-10T14:57:26.276Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-10T14:57:26.450Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:57:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=99194e43-61ac-4fcc-8ebc-3641be2e4e71;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=99194e43-61ac-4fcc-8ebc-3641be2e4e71;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:57:26.454Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-10T14:57:26.656Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 14:57:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=3f39ecaf-f998-4782-a05d-58ff343f480c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3f39ecaf-f998-4782-a05d-58ff343f480c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T14:57:26.808Z] : http port : '3000' is not available. Hence port '3004' will be used instead.
+[debug] [2023-05-10T14:57:26.815Z] : http port : '3060' is not available. Hence port '3064' will be used instead.
+[info] [2023-05-10T14:57:26.826Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3004/appsail/secureFileStorage/
+[info] [2023-05-10T14:57:26.827Z] : 
+[debug] [2023-05-10T14:57:26.929Z] : No basic functions to add
+[info] [2023-05-10T14:57:26.936Z] : 
+[debug] [2023-05-10T15:20:59.296Z] : 
+[debug] [2023-05-10T15:20:59.297Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T15:20:59.298Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-10T15:20:59.298Z] : CLI Version:  1.14.1
+[debug] [2023-05-10T15:20:59.299Z] : Platform:     darwin
+[debug] [2023-05-10T15:20:59.299Z] : Node Version: v16.17.0
+[debug] [2023-05-10T15:20:59.300Z] : Time:         Wed May 10 2023 20:50:59 GMT+0530 (India Standard Time)
+[debug] [2023-05-10T15:20:59.301Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T15:20:59.301Z] : 
+[debug] [2023-05-10T15:20:59.879Z] : > authorizing via signed-in user option
+[debug] [2023-05-10T15:20:59.880Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-10T15:20:59.893Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-10T15:21:00.139Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 15:21:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=66db9383-f5c4-4be0-ab5b-cc8f6f1a710e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=66db9383-f5c4-4be0-ab5b-cc8f6f1a710e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T15:21:00.143Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-10T15:21:00.263Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 15:21:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=49ec7b82-9981-4d8c-a1c8-873c1afbc01d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=49ec7b82-9981-4d8c-a1c8-873c1afbc01d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T15:21:00.400Z] : http port : '3000' is not available. Hence port '3005' will be used instead.
+[debug] [2023-05-10T15:21:00.408Z] : http port : '3060' is not available. Hence port '3065' will be used instead.
+[info] [2023-05-10T15:21:00.416Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3005/appsail/secureFileStorage/
+[info] [2023-05-10T15:21:00.417Z] : 
+[debug] [2023-05-10T15:21:00.518Z] : No basic functions to add
+[info] [2023-05-10T15:21:00.526Z] : 
+[debug] [2023-05-10T15:22:55.070Z] : 
+[debug] [2023-05-10T15:22:55.071Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T15:22:55.071Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-10T15:22:55.072Z] : CLI Version:  1.14.1
+[debug] [2023-05-10T15:22:55.072Z] : Platform:     darwin
+[debug] [2023-05-10T15:22:55.073Z] : Node Version: v16.17.0
+[debug] [2023-05-10T15:22:55.073Z] : Time:         Wed May 10 2023 20:52:55 GMT+0530 (India Standard Time)
+[debug] [2023-05-10T15:22:55.074Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T15:22:55.074Z] : 
+[debug] [2023-05-10T15:22:55.583Z] : > authorizing via signed-in user option
+[debug] [2023-05-10T15:22:55.584Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-10T15:22:55.596Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-10T15:22:55.756Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 15:22:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=ca810d1e-e6ab-4ee2-862f-4ce872351043;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ca810d1e-e6ab-4ee2-862f-4ce872351043;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T15:22:55.760Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-10T15:22:55.893Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 15:22:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=1e9a5353-43dd-490c-867f-d6914a0b9289;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1e9a5353-43dd-490c-867f-d6914a0b9289;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T15:22:56.034Z] : http port : '3000' is not available. Hence port '3006' will be used instead.
+[debug] [2023-05-10T15:22:56.041Z] : http port : '3060' is not available. Hence port '3066' will be used instead.
+[info] [2023-05-10T15:22:56.052Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3006/appsail/secureFileStorage/
+[info] [2023-05-10T15:22:56.052Z] : 
+[debug] [2023-05-10T15:22:56.154Z] : No basic functions to add
+[info] [2023-05-10T15:22:56.160Z] : 
+[debug] [2023-05-10T15:25:41.109Z] : 
+[debug] [2023-05-10T15:25:41.110Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T15:25:41.110Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-10T15:25:41.111Z] : CLI Version:  1.14.1
+[debug] [2023-05-10T15:25:41.111Z] : Platform:     darwin
+[debug] [2023-05-10T15:25:41.111Z] : Node Version: v16.17.0
+[debug] [2023-05-10T15:25:41.112Z] : Time:         Wed May 10 2023 20:55:41 GMT+0530 (India Standard Time)
+[debug] [2023-05-10T15:25:41.112Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T15:25:41.113Z] : 
+[debug] [2023-05-10T15:25:41.603Z] : > authorizing via signed-in user option
+[debug] [2023-05-10T15:25:41.604Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-10T15:25:41.614Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-10T15:25:41.758Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 15:25:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=a2a2fa6d-9d02-40f9-9567-a7d24ab83d5d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a2a2fa6d-9d02-40f9-9567-a7d24ab83d5d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T15:25:41.762Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-10T15:25:41.870Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 15:25:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=31897e07-e2a7-4caf-9931-ea6d38aa4177;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=31897e07-e2a7-4caf-9931-ea6d38aa4177;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T15:25:41.997Z] : http port : '3000' is not available. Hence port '3007' will be used instead.
+[debug] [2023-05-10T15:25:42.004Z] : http port : '3060' is not available. Hence port '3067' will be used instead.
+[info] [2023-05-10T15:25:42.013Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3007/appsail/secureFileStorage/
+[info] [2023-05-10T15:25:42.013Z] : 
+[debug] [2023-05-10T15:25:42.115Z] : No basic functions to add
+[info] [2023-05-10T15:25:42.120Z] : 
+[debug] [2023-05-10T15:29:25.290Z] : 
+[debug] [2023-05-10T15:29:25.291Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T15:29:25.291Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2023-05-10T15:29:25.291Z] : CLI Version:  1.14.1
+[debug] [2023-05-10T15:29:25.292Z] : Platform:     darwin
+[debug] [2023-05-10T15:29:25.292Z] : Node Version: v16.17.0
+[debug] [2023-05-10T15:29:25.293Z] : Time:         Wed May 10 2023 20:59:25 GMT+0530 (India Standard Time)
+[debug] [2023-05-10T15:29:25.293Z] : ----------------------------------------------------------------------
+[debug] [2023-05-10T15:29:25.294Z] : 
+[debug] [2023-05-10T15:29:25.801Z] : > authorizing via signed-in user option
+[debug] [2023-05-10T15:29:25.802Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-05-10T15:29:25.811Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014 
+
+[debug] [2023-05-10T15:29:25.951Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 15:29:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=4512400bb89e29035b0a2a8b392ec3aa; Path=/","ZD_CSRF_TOKEN=a1d4967f-415b-4b2d-8a0b-a322984fde2a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a1d4967f-415b-4b2d-8a0b-a322984fde2a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T15:29:25.954Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25000000003014/environment 
+
+[debug] [2023-05-10T15:29:26.074Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 10 May 2023 15:29:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["977120bff1=a47d291dd6d9f7b26cac0624d7373975; Path=/","ZD_CSRF_TOKEN=a570d3a5-da40-4f9e-a83d-b93573b5ecf8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a570d3a5-da40-4f9e-a83d-b93573b5ecf8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-05-10T15:29:26.197Z] : http port : '3000' is not available. Hence port '3008' will be used instead.
+[debug] [2023-05-10T15:29:26.204Z] : http port : '3060' is not available. Hence port '3068' will be used instead.
+[info] [2023-05-10T15:29:26.211Z] : ℹ AppSail(secureFileStorage): URL : http://localhost:3008/appsail/secureFileStorage/
+[info] [2023-05-10T15:29:26.212Z] : 
+[debug] [2023-05-10T15:29:26.314Z] : No basic functions to add
+[info] [2023-05-10T15:29:26.318Z] : 

@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "25000000003014",
+      "name": "SecureFileStorage",
+      "domain": {
+        "id": "50013603966",
+        "name": "securefilestorage-60021279571.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60021279571",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

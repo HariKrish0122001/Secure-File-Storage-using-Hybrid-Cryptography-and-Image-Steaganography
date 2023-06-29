@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/static/encrypt.js" defer></script>
+    <link rel="stylesheet" type="text/css"  href="/static/encrypt.css"/>
+</head>
+<body onload="flashMessage()">
+    <div class="container">
+        <div class="header">
+            <h1> File </h1>
+            <h1 id="safe">Upload</h1><br>
+            </div>
+    </div>
+    <div>
+        <form   action="/upload1" method="POST" enctype="multipart/form-data">
+               <label> Select the receiver</label>
+                <select multiple id='dropdown' size="3" name="options">
+                  </select><br><br>
+                  <h5>Hold Control to select multiple users</h5><br><br>
+                <label for="file-upload" >Select a file to upload:</label>
+                <input type="file" id="file-upload" name="file--upload" ><br><br>
+                <label for="file-upload">Select an Image to Hide </label>
+                <input type="file" id="img-upload" name="img--upload" accept="image/*" onchange="checkimg()"><br><br>
+                <label >Enter the Key</label>
+                <input type="text" id="key" name='key' placeholder="Enter the Key"><br><br>
+                <button type="submit" class="upload" >Upload</button>
+            </form>
+         <form class="file-download" action="/back2choice" method="POST">
+                <button type="submit" class="download1" id="main">Back to Choice</button>
+             </form>
+    </div>
+</body>
+</html>
