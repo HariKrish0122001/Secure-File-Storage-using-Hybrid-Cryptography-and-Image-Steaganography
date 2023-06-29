@@ -10,7 +10,7 @@ import requests
 # https://console.catalyst.localzoho.com/baas/71779596/project/5249000000687067/Development#/cloudscale/datastore/5249000000687108/schema
 
 os.environ['CATALYST_AUTH'] = json.dumps(
-    {'refresh_token': '1000.0e2f9bdcf8f047882cad13bdb99f4a49.c70f107fc82f39ec6dcbda5a65fca219',
+    {'refresh_token': 'token',
      'client_id': 'clientid',
      'client_secret': 'clientkey'})
 os.environ['CATALYST_OPTIONS'] = json.dumps({'project_id': '5249000000687067', 'project_key': 'projectkey',
