@@ -1,1 +1,7 @@
 # Secure-File-Storage-using-Hybrid-Cryptography-and-Image-Steaganography
+
+In the modern age, security has become a significant issue insensitive information. The need for secure file system is more important than ever with the increasing use of computers and the internet. In this paper, we propose a safe file system that uses hybrid cryptography and image Steganography to ensure a high security level to sensitive data.
+This approach ensures that data are encrypted with a key that is only known to the authorized parties. To further improve the security of the proposed File system, we have used Image Steganography to hide encrypted data within an image file.
+This approach provides a further layer of security to the data by making it harder to detect and retrieve. The proposed secured file system includes various encryption algorithms to enhance its security measures. In particular the Advanced Encryption Standard (AES), Data Encryption Standard (DES), and Rivest Cipher 4 (RC4) are used in this system. 
+The use of multiple encryption algorithms provides more robust .The proposed secure file system is designed to be user friendly and easy to use. It offers a secure interface for users to securely download and access their files.
+![image](https://github.com/HariKrish0122001/Secure-File-Storage-using-Hybrid-Cryptography-and-Image-Steaganography/assets/97941879/7a8d30e3-7d57-41a5-8928-76991f8f553b)
